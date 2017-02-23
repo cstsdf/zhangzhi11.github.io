@@ -1,30 +1,63 @@
-safe: false
+# Build settings
+gems:
+  - jemoji
+  - jekyll-paginate
 
-# build settings
-markdown: kramdown
-highlighter: rouge
-lsi: false
-permalink: /:title
+# Site settings
+title: "Mediator"
+description: > # this means to ignore newlines until "email:"
+   A Jekyll theme - Medium inspired
 
-title: "张植"
-description: "现西安交通大学小硕一名"
+email: a-mail@mail.mail
+#blog logo
+logo: "/assets/images/df_logo.jpg"
+float_logo: true # true, false (default)
+
+# blog cover
+cover: "/assets/images/cA4aKEIPQrerBnp1yGHv_IMG_9534-3-2.jpg"
+
+name: 'Dirk Fabisch'
+author: 'Dirk Fabisch'
+author_image: "/assets/images/author.jpg"
+
+paginate:	5
+
+url: "http://myblog.***.***" # the base hostname & protocol for your site
 baseurl: ""
-url: "https://github.com/zhangzhi11" # replace by your site's url
-twitter_username: your-name
-github_username:  zhangzhi11 # (your name)
-accent: "#f7f7e6" # accent color for blog column
+#used to display twitter cards
+twitter_handle: '@dirkfabisch'
 
-author: "Zhang Zhi"
-address: "碑林区咸宁西路28号，陕西西安"
-email: "zhangzhi086@gmail.com"
+#fill in disqus shortname to use disqus
+#disqus: disqus-shortname
 
-# google analytics tracking code, please change the value
-#g_analytics: ""
+#google_analytics: UA-XXXXX-X
 
-# language settings
-isolang: en
+# social icons and sharing options
+social:
+  - icon:	twitter
+    url:	https://twitter.com/dirkfabisch
+    desc: Follow me on twitter
+    share_url: http://twitter.com/share
+    share_title: ?text=
+    share_link: "&amp;url="
 
-# exclude files
-exclude:
-  - LICENSE
-  - README.md
+#  - icon:	facebook
+#    url:	https://facebook.com/???
+#    desc: Connect with me facebook
+#    share_url: https://www.facebook.com/sharer.php
+#    share_title: ?t=
+#    share_link: "&amp;u="
+
+  - icon:	github
+    url:	https://github.com/dirkfabisch
+    desc:	Fork me on github
+    share_url:
+    share_title:
+    share_link:
+
+#  - icon:	google-plus
+#    url:	https://google.com/???
+#    desc:	Add me on google+
+#    share_url:
+#    share_title:
+#    share_link:

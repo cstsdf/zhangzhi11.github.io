@@ -1,9 +1,0 @@
-- name: Kinematics Recurrent Neural Network for Skeleton-based Gesture Detection
-  link: "https://github.com/zhangzhi11"
-  description: "一种基于运动学的双向递归神经网络进行手势检测。利用LSTM-BRNN将手势分割和识别的问题转化为视频标注的问题，避免了传统方法滑动窗多次重复计算，改善了传统方法的时间性能并且大大提高了检测准确度。同时在LSTM-BRNN上引入了对于瞬时运动信息的描述（主要是人体关节的速度、加速度），提出了基于运动学的网络结构。"
-- name: IEEE Chalearn LAP Large-scale Isolated Gesture Recognition Challenge
-  link: "https://github.com/zhangzhi11"
-  description: "利用增强深度动作图（eDMM）和静态位姿图（SPM）的手势识别方法。然后提出一个2-CNN结构去提取eDMM和SPM对于手势的描述特征。这种特征不仅能够反映手势的动态信息，同时对于手势的静态位姿有很好的描述。最后利用ANN对特征进行分类。实验结果证明该方法在Chalearn IsoGD数据集和NATOPS数据集上基本达到the-state-of-art的水平。"
-- name: 非监督缺陷检测 
-  link: "https://github.com/zhangzhi11"
-  description: "本项目的是在只有正样本做训练的情况下，对一些异常和缺陷进行检测。利用RBM等非监督方法对正样本进行建模。在测试时，利用训练好的模型对图像进行重建，然后用重建图像和原本的图像的距离判断是否为缺陷。"
