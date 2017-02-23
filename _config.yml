@@ -6,17 +6,17 @@ highlighter: rouge
 lsi: false
 permalink: /:title
 
-title: "Your Name"
-description: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam"
+title: "张植"
+description: "2011-2015 西安交通大学 学士<LineBreak/>2015-至今 西安交通大学 硕士"
 baseurl: ""
-url: "http://himsel.me" # replace by your site's url
+url: "https://github.com/zhangzhi11" # replace by your site's url
 twitter_username: your-name
-github_username:  lukas-h # (your name)
+github_username:  zhangzhi11 # (your name)
 accent: "#f7f7e6" # accent color for blog column
 
-author: "Your Name"
-address: "Your Street, <br>Your City, Country"
-email: "your@email.com"
+author: "Zhang Zhi"
+address: "碑林区咸宁西路28号，陕西西安"
+email: "zhangzhi086@gmail.com"
 
 # google analytics tracking code, please change the value
 g_analytics: ""
