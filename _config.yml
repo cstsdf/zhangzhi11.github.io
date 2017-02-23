@@ -7,7 +7,7 @@ lsi: false
 permalink: /:title
 
 title: "张植"
-description: "2011-2015 西安交通大学 学士 
+description: "2011-2015 西安交通大学 学士 <LineBreak/>
                 2015-至今 西安交通大学 硕士"
 baseurl: ""
 url: "https://github.com/zhangzhi11" # replace by your site's url
