@@ -7,7 +7,8 @@ lsi: false
 permalink: /:title
 
 title: "张植"
-description: "2011-2015 西安交通大学 学士<LineBreak/>2015-至今 西安交通大学 硕士"
+description: "2011-2015 西安交通大学 学士 
+                2015-至今 西安交通大学 硕士"
 baseurl: ""
 url: "https://github.com/zhangzhi11" # replace by your site's url
 twitter_username: your-name
@@ -19,7 +20,7 @@ address: "碑林区咸宁西路28号，陕西西安"
 email: "zhangzhi086@gmail.com"
 
 # google analytics tracking code, please change the value
-g_analytics: ""
+#g_analytics: ""
 
 # language settings
 isolang: en
